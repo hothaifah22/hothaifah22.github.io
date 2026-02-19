@@ -18,8 +18,8 @@ export default function Tools() {
     <section id="tools" className="relative z-10 w-full max-w-6xl mx-auto px-6 py-24">
       <FadeIn>
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-[#1d1d1f] mb-4">Core Technologies.</h2>
-          <p className="text-xl text-[#86868b] font-medium">The tools and frameworks I use to bring ideas to life.</p>
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-[#1d1d1f] dark:text-white mb-4 transition-colors duration-500">Core Technologies.</h2>
+          <p className="text-xl text-[#86868b] dark:text-gray-400 font-medium transition-colors duration-500">The tools and frameworks I use to bring ideas to life.</p>
         </div>
         
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-12 gap-x-8 max-w-5xl mx-auto">
@@ -29,7 +29,7 @@ export default function Tools() {
                 <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center mb-4 transition-transform duration-300 group-hover:-translate-y-3">
                   <img src={tool.icon} alt={tool.name} className="w-full h-full object-contain drop-shadow-xl" />
                 </div>
-                <span className="text-[#1d1d1f] font-semibold text-sm tracking-wide">{tool.name}</span>
+                <span className="text-[#1d1d1f] dark:text-gray-300 font-semibold text-sm tracking-wide transition-colors duration-500">{tool.name}</span>
               </div>
             </FadeIn>
           ))}
