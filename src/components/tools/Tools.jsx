@@ -4,6 +4,7 @@ export default function Tools() {
   const tools = [
     { name: 'Flutter', icon: '/icons/flutter.png' },
     { name: 'Dart', icon: '/icons/dart.png' },
+    { name: 'Clean Architecture', icon: '/icons/clean_arch.png' },
     { name: 'BLoC', icon: '/icons/bloc.png' },
     { name: 'Cubit', icon: '/icons/cubit.png' },
     { name: 'Dio', icon: '/icons/dio.png' },
@@ -27,9 +28,15 @@ export default function Tools() {
             <FadeIn key={index} delay={index * 50}>
               <div className="flex flex-col items-center justify-center group">
                 <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center mb-4 transition-transform duration-300 group-hover:-translate-y-3">
-                  <img src={tool.icon} alt={tool.name} className="w-full h-full object-contain drop-shadow-xl" />
+                  <img 
+                    src={tool.icon} 
+                    alt={tool.name} 
+                    className="w-full h-full object-contain drop-shadow-xl" 
+                  />
                 </div>
-                <span className="text-[#1d1d1f] dark:text-gray-300 font-semibold text-sm tracking-wide transition-colors duration-500">{tool.name}</span>
+                <span className="text-[#1d1d1f] dark:text-gray-300 font-semibold text-sm tracking-wide transition-colors duration-500 text-center">
+                  {tool.name}
+                </span>
               </div>
             </FadeIn>
           ))}
