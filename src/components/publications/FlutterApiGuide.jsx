@@ -20,7 +20,7 @@ export default function FlutterApiGuide() {
           </h3>
           
           <p className="text-[#86868b] dark:text-gray-400 text-base md:text-lg mb-6 font-medium transition-colors duration-500 leading-relaxed">
-            A comprehensive 17-page technical guide providing a repeatable, 10-step blueprint for integrating backend APIs into Flutter applications. This document standardizes network calls, implements reactive state management, and enforces clean architecture principles.
+            A comprehensive 24-page technical guide providing a repeatable, 10-step blueprint for integrating backend APIs into Flutter applications. This document standardizes network calls, implements reactive state management, and enforces clean architecture principles.
           </p>
           
           <div className="flex flex-wrap gap-2 md:gap-3 mb-8">
